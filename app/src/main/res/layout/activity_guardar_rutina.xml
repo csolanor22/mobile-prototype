@@ -60,7 +60,8 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:ems="10"
-                    android:inputType="number" />
+                    android:inputType="number"
+                    android:textColor="@color/black" />
             </LinearLayout>
 
             <LinearLayout
@@ -88,13 +89,15 @@
                 android:id="@+id/switch2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Enviar notificaciones" />
+                android:text="Enviar notificaciones"
+                android:textColor="@color/black" />
 
             <Switch
                 android:id="@+id/switch3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Agregar alarma" />
+                android:text="Agregar alarma"
+                android:textColor="@color/black" />
 
             <Button
                 android:id="@+id/guardar"
